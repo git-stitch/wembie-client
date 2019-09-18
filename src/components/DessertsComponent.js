@@ -18,7 +18,7 @@ export default class DessertsComponent extends Component {
           <div className="card-content">
             <div className="media">
               <div className="media-content">
-                <p className="title is-4 has-text-centered">{this.props.dessert.name}</p>
+                <p className={this.props.dessert.name === "Moldovan Waffles" ? "title is-4 has-text-centered color-pink" : "title is-4 has-text-centered color-blue"}>{this.props.dessert.name}</p>
               </div>
             </div>
             <div className="content">

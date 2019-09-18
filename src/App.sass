@@ -3,6 +3,7 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
@@ -16,7 +17,7 @@ $beige-lighter: #eff0eb;
 $gold: #FFD800;
 
 // Update Bulma's global variables
-$family-sans-serif: 'Nunito', sans-serif;
+$family-sans-serif: 'Coiny', sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
@@ -24,7 +25,7 @@ $link: $pink;
 $widescreen-enabled: true;
 $fullhd-enabled: true;
 $content-heading-color: $pink;
-$footer-background-color: $gold;
+$footer-background-color: white;
 
 // Update some of Bulma's component variables
 // $body-background-color: $beige-lighter;
@@ -50,7 +51,6 @@ view rawApp.sass hosted with ❤ by GitHub
 
 html 
   scroll-behavior: smooth;
-
 
 .in-column
   margin: 0 auto
@@ -80,9 +80,6 @@ j.text-position
 
 .title-text
   text-align: center
-  border-style: solid
-  border-color: $pink
-  border-radius: 20px
 
 body 
   background-color: #add8e6
@@ -129,4 +126,10 @@ body
   color: white
 
 .fix-this
-  color: white !important
+  color: white !important\
+
+.color-blue
+  color: #3e9dc6
+
+.color-pink
+  color: #e20072

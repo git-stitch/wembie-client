@@ -11,13 +11,13 @@ export default class CountriesContainer extends Component {
             <li className={this.props.bashkir ? "is-active" : ""} onClick={()=>this.props.setActiveCountry("bashkir")}>
               <a>
                 <span className="icon is-small"><i className="far fa-flag" aria-hidden="true"></i></span>
-                <span>Bashkir</span>
+                <span className="color-blue">Bashkir</span>
               </a>
             </li>
             <li className={this.props.moldova ? "is-active" : ""} onClick={()=>this.props.setActiveCountry("moldova")}>
               <a>
                 <span className="icon is-small"><i className="far fa-flag" aria-hidden="true"></i></span>
-                <span>Moldova</span>
+                <span className="color-pink">Moldova</span>
               </a>
             </li>
           </ul>
