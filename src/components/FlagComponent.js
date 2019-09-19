@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import moldova from '../images/MoldovaFix.jpg'
 
 export default class FlagComponent extends Component {
   render() {
@@ -7,7 +8,7 @@ export default class FlagComponent extends Component {
         <img src={this.props.country === "bashkir" ? 
           "https://i.ibb.co/0CJpwdX/Bashkiria.jpg"
           :
-          "https://i.ibb.co/MZZmg5F/Moldova.jpg"
+          moldova
         } alt={this.props.country}/>
       </div>
     )

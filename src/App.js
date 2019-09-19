@@ -24,12 +24,12 @@ const mold = {
 const dessertArray = [
   {
     name:"Moldovan Waffles",
-    description:"Whipped cheese cake filled waffles in chocolate and vanilla flavors.",
+    description:"Whipped cheese cake filled waffles.",
     img:"https://i.ibb.co/3m24R7J/vvembie-waffles-top.jpg"
   },
   {
     name:"Bashkir Farm Donuts",
-    description:"Warm farm cheese donuts topped with powder sugar.",
+    description:"Warm farm cheese donuts.",
     img:"https://i.ibb.co/8gNKyFz/vvembie-donuts.jpg"
   }
 ]
@@ -67,7 +67,7 @@ class App extends React.Component {
         <FoodImgContainer />
         <DessertsContainer desserts={this.state.desserts}/>
         <LocationContainer />
-        <SliderContainer />
+        {/* <SliderContainer /> */}
         <Footer />
       </div>
     )
