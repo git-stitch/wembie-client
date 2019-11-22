@@ -40,7 +40,7 @@ export default class Footer extends Component {
                 <span>
                     <a href="https://www.instagram.com/vvembie/"><img  src={insta} alt="instagram" /></a>
                 </span>  <span>
-                    <a href="https://www.instagram.com/vvembie/"><img  src={facebook} alt="facebook" /></a>
+                    <a href="https://www.facebook.com/weembie"><img  src={facebook} alt="facebook" /></a>
                 </span>
               </p>
           </div>
