@@ -29,7 +29,7 @@ export default class LocationTextComponent extends Component {
             <span className="color-pink">t</span>
             <span className="color-blue">e</span>
               </h1> */}
-						<p>Every Saturday Nov - Jan 5th at 4pm</p>
+						<p>For the Schedule Visit <span><a href="https://luminocityfestival.com">Luminocityfestival.com</a></span></p>
 					</div>
 				</div>
       </div>
