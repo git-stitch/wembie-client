@@ -6,7 +6,7 @@ export default class LocationTextComponent extends Component {
       <div className="column">
         <div className="box has-text-centered location-text location-background">
 					<div className="content is-large is-white">
-						<h1 className="fix-this">
+						{/* <h1 className="fix-this">
               <span className="color-blue">L</span>
               <span className="color-pink">o</span>
               <span className="color-blue">c</span>
@@ -15,9 +15,10 @@ export default class LocationTextComponent extends Component {
               <span className="color-pink">i</span>
               <span className="color-blue">o</span>
               <span className="color-pink">n</span>
-            </h1>
+            </h1> */}
 						<p>Come visit us at the Luminocity Festival this holiday season.</p>
-						<h1 className="fix-this">
+            <br></br>
+						{/* <h1 className="fix-this">
             <span className="color-blue">T</span>
             <span className="color-pink">i</span>
             <span className="color-blue">m</span>
@@ -27,7 +28,7 @@ export default class LocationTextComponent extends Component {
             <span className="color-blue">a</span>
             <span className="color-pink">t</span>
             <span className="color-blue">e</span>
-              </h1>
+              </h1> */}
 						<p>Every Saturday Nov - Jan 5th at 4pm</p>
 					</div>
 				</div>
